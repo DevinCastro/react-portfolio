@@ -26,6 +26,14 @@ const Contact = () => {
             </FormGroup>
             <Button>Submit</Button>
           </Form>
+
+          <br/>
+
+        <a className="resume" target="_blank" href="https://drive.google.com/file/d/1ndE82WoBnJDtFSzsTgw4Pq5GcVtk2GzX/view?usp=sharing">
+        <Button color="danger" className="myWork">
+          My Resume
+        </Button>
+        </a>
     </Container>
   )
 }

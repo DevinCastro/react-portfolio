@@ -35,6 +35,23 @@ section {
   width: 100%;
 }
 
+.button {
+  background-color: transparent;
+  border: transparent;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.myWork {
+  text-align: center;
+}
+
+.resume {
+  color: white;
+}
 
 @media only screen and (max-width: 600px) {
   #intro {

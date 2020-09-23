@@ -7,7 +7,7 @@ const Portfolio = () => {
     <>
       <Container>
 
-        <h1>This is the Portfolio page</h1>
+        <h1 className="myWork">My Work</h1>
         <Project
           name={'Busks in Town'}
           technology={'This application uses node and express to set up the server and utilizes a mySQL database. '}

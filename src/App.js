@@ -42,6 +42,8 @@ const App = () => {
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact} />
         </Switch>
+
+
       </div>
     </Router>
   )
