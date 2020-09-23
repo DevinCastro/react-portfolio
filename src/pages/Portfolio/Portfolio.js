@@ -42,7 +42,7 @@ const Portfolio = () => {
           name={'React Portfolio'}
           technology={'This is a React application.'}
           description={'This is the current application you are looking at right now.  Using react to render everything on the front end and reactstrap to sytle everything'}
-          link={'/'}
+          link={'http://DevinCastro.github.io/react-portfolio'}
           repo={'https://github.com/DevinCastro/react-portfolio'}
           image={'./photos/portfolio.png'}
 
