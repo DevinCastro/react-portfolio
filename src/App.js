@@ -7,15 +7,9 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+  NavLink
 } from 'reactstrap'
 
 
@@ -27,8 +21,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Navbar color="light" light expand="md">
-          <NavbarBrand>Devin Castro</NavbarBrand>
+        <Navbar color="dark" light expand="md">
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>

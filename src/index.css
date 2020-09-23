@@ -1,0 +1,38 @@
+section {
+  background-image: url(./photos/guitar.jpg);
+  min-height: 1080px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(24, 24, 24);
+}
+
+#intro {
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  ;
+}
+
+/* This styles specifically my name */
+
+.devincastro {
+  color: rgb(255, 13, 130);
+  font-weight: 600;
+}
+
+.deployedLink {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #intro {
+    font-size: 30px;
+  }
+}
