@@ -1,6 +1,12 @@
 import React from 'react'
 import Project from '../../components/Project'
 import { Container } from 'reactstrap';
+import busks from '../../photos/busks.png'
+import budget from '../../photos/budget.png'
+import fitness from '../../photos/fitness.png'
+import portfolio from '../../photos/portfolio.png'
+import notetaker from '../../photos/notetaker.png'
+import pokemonImg from '../../photos/pokemonImg.png'
 
 const Portfolio = () => {
   return (
@@ -14,7 +20,7 @@ const Portfolio = () => {
           description={'Busks in town allows a user to create an artist account filled with their photo, bio, genre, bio, and social media links.  Then that artist can create upcoming concerts and post when and where those concerts will be held!'}
           link={'https://guarded-crag-60613.herokuapp.com/'}
           repo={'https://github.com/datrimboli/BusksInTown'}
-          image={'./photos/busks.png'}
+          image={busks}
 
         />
 
@@ -24,7 +30,7 @@ const Portfolio = () => {
           description={'This application allows a user to log their workouts everyday. They can create new workouts and add which exercises they include in that workout. They can pick up a workout where they left off, and lastly they can view their stats from all of the previous workouts organized by some graphs and pie charts.'}
           link={'https://thawing-bayou-03032.herokuapp.com/'}
           repo={'https://github.com/DevinCastro/workout-tracker'}
-          image={'./photos/fitness.png'}
+          image={fitness}
 
         />
 
@@ -34,7 +40,7 @@ const Portfolio = () => {
           description={'This application allows a user to log and track their expensives. This is also a progressive web application and still mantains functionality if you are using it offline.'}
           link={'https://glacial-bastion-76923.herokuapp.com/'}
           repo={'https://github.com/DevinCastro/Online-offline-budget-tracker'}
-          image={'./photos/budget.png'}
+          image={budget}
 
         />
 
@@ -44,7 +50,7 @@ const Portfolio = () => {
           description={'This is the current application you are looking at right now.  Using react to render everything on the front end and reactstrap to sytle everything'}
           link={'http://DevinCastro.github.io/react-portfolio'}
           repo={'https://github.com/DevinCastro/react-portfolio'}
-          image={'./photos/portfolio.png'}
+          image={portfolio}
 
         />
 
@@ -54,7 +60,7 @@ const Portfolio = () => {
           description={'This is a simple note taking application. The User can add any number of notes organized by a title and save it. They can view previously written notes and then they can delete them.'}
           link={'https://desolate-ravine-80676.herokuapp.com/'}
           repo={'https://github.com/DevinCastro/note-taker'}
-          image={'./photos/notetaker.png'}
+          image={notetaker}
 
         />
 
@@ -65,7 +71,7 @@ const Portfolio = () => {
           description={'This application allows a user to find pokemon data based on the search of any pokemon name.  Then the user can find pokemon cards based on a name or type search.  Lastly we are able to play a pokemon trivia where you guess the name of a hidden pokemon.'}
           link={'https://kalynbsimms.github.io/pokeProject/'}
           repo={'https://github.com/Kalynbsimms/pokeProject'}
-          image={'./photos/pokemonImg.png'}
+          image={pokemonImg}
 
         />
 
