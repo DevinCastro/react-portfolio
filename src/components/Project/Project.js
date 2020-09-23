@@ -21,6 +21,9 @@ const Project = props => {
           <p className="lead">
             <Button color="primary">
               <a className="deployedLink" href={props.link} target='_blank'>Link to App</a>
+            </Button>{' '}
+            <Button color="primary">
+              <a className="deployedLink" href={props.repo} target='_blank'>Link to Repo</a>
             </Button>
           </p>
 
@@ -28,7 +31,7 @@ const Project = props => {
             <div>
               <Button color="danger" onClick={toggle}>Photo</Button>
               <Modal isOpen={modal} toggle={toggle}>
-                <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+                <ModalHeader toggle={toggle}>{props.name}</ModalHeader>
                 <ModalBody>
                   <img className="projectPhoto" src={props.image} alt={props.name}/>
                 </ModalBody>
