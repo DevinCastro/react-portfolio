@@ -30,18 +30,18 @@ const App = () => {
                 <NavLink><Link to="/">Home</Link></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink><Link to="/portfolio">Portfolio</Link></NavLink>
+                <NavLink><Link to="/myPortfolio">Portfolio</Link></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink><Link to="/contact">Contact</Link></NavLink>
+                <NavLink><Link to="/contactMe">Contact</Link></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/myPortfolio" component={Portfolio} />
+          <Route path="/contactMe" component={Contact} />
         </Switch>
       </nav>
 
