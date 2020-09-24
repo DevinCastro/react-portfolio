@@ -13,4 +13,4 @@ This is a React application made with create-react-app.  This portfolio is stric
 Upon landing on the home page, you can see my name along with two clickable icons to my linkedin and my GitHub accounts.  The nav bar at the top will take you to my portfolio page or contact page.  The portfolio page had clickable buttons to take you to the application repo or deployed version.  The footer at the bottom on all pages will take you to my Github, Linkedin or my resume.
 
 
-![Screenshot](./public/photos/portfolio.png)
+![Screenshot](./src/photos/portfolio.png)
