@@ -27,7 +27,7 @@ const App = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <NavLink><Link to="/">Home</Link></NavLink>
+                <NavLink><Link to="/react-portfolio">Home</Link></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink><Link to="/myPortfolio">Portfolio</Link></NavLink>
@@ -39,7 +39,7 @@ const App = () => {
           </Collapse>
         </Navbar>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/react-portfolio" component={Home} />
           <Route path="/myPortfolio" component={Portfolio} />
           <Route path="/contactMe" component={Contact} />
         </Switch>
