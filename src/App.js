@@ -53,7 +53,7 @@ const App = () => {
             <Nav className="mr-auto" navbar>
               <NavItem>
                 <NavLink target="_blank"
-                  href="https://drive.google.com/file/d/1ndE82WoBnJDtFSzsTgw4Pq5GcVtk2GzX/view?usp=sharing">My Resume</NavLink>
+                  href="https://drive.google.com/file/d/1phfSZjCJmd3TiU-M5Rad7yxHp0uZJEPl/view?usp=sharing">My Resume</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink target="_blank" href="https://github.com/DevinCastro">GitHub</NavLink>

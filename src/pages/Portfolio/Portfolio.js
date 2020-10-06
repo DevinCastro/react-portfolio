@@ -14,6 +14,18 @@ const Portfolio = () => {
       <Container>
 
         <h1 className="myWork">My Work</h1>
+
+        <Project
+          name={'Blues It'}
+          technology={'Full Stack MERN Application.  Includes fully functional user authentication with passport and true image upload.'}
+          description={'This application is a music oriented social media platform. While most social platforms are littered with advertising, specific display algorithms, and sell your data, BluesIt provides a clean and intuitive interface for musicians and music lovers to share their thoughts and interests with each other. Log in and start checking out some of the threads that might interest you, and then post and share your thoughts! When you see a post you are interested in, give it a like and or comment on that thread and share your thoughts with the user who made that post!'}
+          link={'https://desolate-sands-65866.herokuapp.com/'}
+          repo={'https://github.com/DevinCastro/BluesIt'}
+          image={'https://user-images.githubusercontent.com/65981639/94970039-a4c80e80-04b8-11eb-93fa-76592b62facc.png'}
+
+        />
+
+
         <Project
           name={'Busks in Town'}
           technology={'This application uses node and express to set up the server and utilizes a mySQL database. '}
@@ -65,16 +77,7 @@ const Portfolio = () => {
         />
 
 
-        <Project
-          name={'Poke Project'}
-          technology={'This is a purely front end web application.'}
-          description={'This application allows a user to find pokemon data based on the search of any pokemon name.  Then the user can find pokemon cards based on a name or type search.  Lastly we are able to play a pokemon trivia where you guess the name of a hidden pokemon.'}
-          link={'https://kalynbsimms.github.io/pokeProject/'}
-          repo={'https://github.com/Kalynbsimms/pokeProject'}
-          image={pokemonImg}
-
-        />
-
+       
 
 
       </Container>
